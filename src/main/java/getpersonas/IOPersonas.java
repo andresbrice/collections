@@ -28,7 +28,7 @@ public class IOPersonas {
         try {
           apellido = datos[1];
         } catch (RuntimeException e) {
-          System.err.println("El apellido debe ser una cadena de texto");
+          System.err.println("El apellido debe ser una cadena de texto ");
         }
 
         try {
